@@ -1,0 +1,119 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: #f0f0f5; /* Lighter shade for a cleaner look */
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  padding: 0px 0px;
+}
+
+header {
+  background-color: #ff9800; /* Brighter orange */
+  margin: 0 auto; /* Center the header horizontally */
+  padding: 20px 0; /* Adjust padding to make the header look taller */
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.3);
+  text-align: center; /* Center the content horizontally */
+  width: 100%; /* Make sure it spans the full width */
+}
+
+header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 300;
+  font-size: 2.5em; /* Increased font size for better visibility */
+  line-height: 1.5em; /* Adjust line height for better vertical alignment */
+  margin: 0; /* Remove default margin */
+}
+
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #999; /* Slightly darker text for contrast */
+}
+
+.note {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  padding: 14px;
+  width: 260px;
+  margin: 16px;
+  float: left;
+}
+
+.note h1 {
+  font-size: 1.3em; /* Increased font size for the title */
+  margin-bottom: 8px;
+  color: #333; /* Darker text for better readability */
+}
+
+.note p {
+  font-size: 1.2em; /* Slightly increased content font size */
+  margin-bottom: 12px;
+  color: #555; /* Softer color for text */
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.note button {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  color: #ff9800; /* Brighter button color */
+  border: none;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+}
+
+form.create-note {
+  position: relative;
+  width: 500px; /* Slightly wider for more content space */
+  margin: 40px auto 20px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+form.create-note input,
+form.create-note textarea {
+  width: 100%;
+  border: none;
+  padding: 6px;
+  outline: none;
+  font-size: 1.3em; /* Increased input font size */
+  font-family: inherit;
+  resize: none;
+}
+
+form.create-note button {
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  background: #ff9800; /* Brighter button */
+  color: #fff3d0; /* Softer yellow for text contrast */
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
